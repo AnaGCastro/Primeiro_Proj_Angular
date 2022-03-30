@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponenet } from './MeuPrimeiro.component';
+import { PropertyComponent } from './property/property.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MeuPrimeiroComponenet
+    MeuPrimeiroComponenet,
+    PropertyComponent
   ],
   imports: [
     BrowserModule
